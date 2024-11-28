@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+    <g transform="matrix(0.484747,0,0,0.484747,99.4705,120.091)">
+        <path d="M384,32L512,32C529.7,32 544,46.3 544,64C544,81.7 529.7,96 512,96L398.4,96C393.2,121.8 375.5,143.1 352,153.3L352,448L512,448C529.7,448 544,462.3 544,480C544,497.7 529.7,512 512,512L128,512C110.3,512 96,497.7 96,480C96,462.3 110.3,448 128,448L288,448L288,153.3C264.5,143 246.8,121.7 241.6,96L128,96C110.3,96 96,81.7 96,64C96,46.3 110.3,32 128,32L256,32C270.6,12.6 293.8,0 320,0C346.2,0 369.4,12.6 384,32ZM439.6,320L584.5,320L512,195.8L439.6,320ZM512,416C449.1,416 396.8,382 386,337.1C383.4,326.1 387,314.8 392.7,305L487.9,141.8C492.9,133.2 502.1,128 512,128C521.9,128 531.1,133.3 536.1,141.8L631.3,305C637,314.8 640.6,326.1 638,337.1C627.2,382 574.9,416 512,416ZM126.8,195.8L54.4,320L199.3,320L126.8,195.8ZM0.9,337.1C-1.7,326.1 1.9,314.8 7.6,305L102.8,141.8C107.8,133.2 117,128 126.9,128C136.8,128 146,133.3 151,141.8L246.2,305C251.9,314.8 255.5,326.1 252.9,337.1C242,382 189.7,416 126.8,416C63.9,416 11.7,382 0.9,337.1Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+</svg>

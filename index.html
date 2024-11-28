@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuGH-Chatbot – Chatte mit Urteilen</title>
+</head>
+<body>
+
+<flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+
+    // Function to fetch settings from the JSON file
+    async function loadChatbotSettings() {
+        try {
+            const response = await fetch('/chatflow.settings.json');
+            if (!response.ok) {
+                throw new Error('Failed to load chatflow settings.');
+            }
+            const settings = await response.json();
+            const { chatflowid, apiHost } = settings;
+
+            // Initialize the chatbot with the settings from the JSON file
+            Chatbot.initFull({
+                chatflowid,
+                apiHost,
+                theme: {
+                    button: {
+                        backgroundColor: '#003399'
+                    },
+                    chatWindow: {
+                        showTitle: true,
+                        title: 'EuGH Chatbot',
+                        titleAvatarSrc: 'https://curia.chat/assets/scale-curia-small.svg',
+                        showAgentMessages: true,
+                        welcomeMessage: 'Dieser Chatbot ist eine absolute Beta. Weder sind alle EuGH-Urteile in der Datenbank enthalten, noch ist er stabil oder der Datenschutz ist "in order". Wen das alles nicht interessiert, der kann hier herumprobieren.',
+                        errorMessage: 'This is a custom error message',
+                        backgroundColor: "#ffffff",
+                        fontSize: 16,
+                        starterPromptFontSize: 15,
+                        clearChatOnReload: false,
+                        botMessage: {
+                            backgroundColor: "#f7f8ff",
+                            textColor: "#303235",
+                            showAvatar: true,
+                            avatarSrc: "https://curia.chat/assets/robot-curia.svg",
+                        },
+                        userMessage: {
+                            backgroundColor: "#003399",
+                            textColor: "#ffffff",
+                            showAvatar: true,
+                            avatarSrc: "https://curia.chat/assets/user-curia.svg",
+                        },
+                        textInput: {
+                            placeholder: 'Was für Urteile suchst Du?.',
+                            backgroundColor: '#ffffff',
+                            textColor: '#303235',
+                            sendButtonColor: '#003399',
+                            maxChars: 250,
+                            maxCharsWarningMessage: 'Beschränke Dich bei Deiner Frage auf 250 Zeichen..',
+                            autoFocus: true,
+                            sendMessageSound: false,
+                            receiveMessageSound: false,
+                        },
+                        feedback: {
+                            color: '#303235',
+                        },
+                        footer: {
+                            textColor: '#303235',
+                            text: 'Powered by',
+                            company: 'Flowise',
+                            companyLink: 'https://flowiseai.com',
+                        }
+                    }
+                }
+            });
+        } catch (error) {
+            console.error('Error loading chatbot settings:', error);
+        }
+    }
+
+    // Load settings and initialize the chatbot
+    loadChatbotSettings();
+</script>
+</body>
+</html>

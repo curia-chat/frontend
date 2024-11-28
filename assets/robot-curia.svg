@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 640 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.830371,0,0,0.808186,47.4822,55.2708)">
+        <rect x="-114.265" y="-105.955" width="859.592" height="738.037" style="fill:rgb(0,51,153);"/>
+    </g>
+ <!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+    <g transform="matrix(0.470097,0,0,0.470097,169.569,119.655)">
+        <path d="M320,0C337.7,0 352,14.3 352,32L352,96L472,96C511.8,96 544,128.2 544,168L544,440C544,479.8 511.8,512 472,512L168,512C128.2,512 96,479.8 96,440L96,168C96,128.2 128.2,96 168,96L288,96L288,32C288,14.3 302.3,0 320,0ZM208,384C199.2,384 192,391.2 192,400C192,408.8 199.2,416 208,416L240,416C248.8,416 256,408.8 256,400C256,391.2 248.8,384 240,384L208,384ZM304,384C295.2,384 288,391.2 288,400C288,408.8 295.2,416 304,416L336,416C344.8,416 352,408.8 352,400C352,391.2 344.8,384 336,384L304,384ZM400,384C391.2,384 384,391.2 384,400C384,408.8 391.2,416 400,416L432,416C440.8,416 448,408.8 448,400C448,391.2 440.8,384 432,384L400,384ZM264,256C264,234.057 245.943,216 224,216C202.057,216 184,234.057 184,256C184,277.943 202.057,296 224,296C245.943,296 264,277.943 264,256ZM416,296C437.943,296 456,277.943 456,256C456,234.057 437.943,216 416,216C394.057,216 376,234.057 376,256C376,277.943 394.057,296 416,296ZM48,224L64,224L64,416L48,416C21.5,416 0,394.5 0,368L0,272C0,245.5 21.5,224 48,224ZM592,224C618.5,224 640,245.5 640,272L640,368C640,394.5 618.5,416 592,416L576,416L576,224L592,224Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+</svg>
