@@ -15,7 +15,7 @@ class MySQLHelper
         // Prüfen, ob die Verbindung bereits existiert (Singleton-Muster)
         if (self::$pdo === null) {
             try {
-                $dsn = 'mysql:host=' . $config['db_host'] . ';dbname=' . $config['db_name'] . ';port=' . $config['db_port'];
+                $dsn = 'mysql:host=' . $config['db_host'] . ';dbname=' . $config['db_name'] . ';port=' . $config['db_port']  . ';charset=utf8mb4';
                 $options = [
                     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,  // Fehler als Exception
                     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,        // Standard Fetch-Modus
